@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+form{
+    width:500px;
+    display:inline-block;
+    padding:50px 20px 0px 50px;
+}
+input, button, textarea{
+    display:block;
+    margin:10px;
+}
+    button{
+        padding:10px 20px 10px 20px;
+        display:inline-block;
+        margin-right:100px;
+        margin-bottom:75px;
+    }
+label{
+    margin:20px 0px 0px 10px;
+}
+#box{
+    height:100px;
+    width:100%;
+}
+#card #back{
+    display:none;
+    text-align:justify;
+    height:130px;
+}
+#content{
+    display:inline-block;
+    vertical-align:top;
+    padding:20px;
+    border:5px solid black;
+    overflow-y:scroll;
+    width:400px;
+    height:500px;
+    margin:20px 0px 0px 50px;
+}
+#card{
+    padding:10px 20px 10px 20px;
+    height:150px;
+    width:300px;
+    border:1px solid indigo;
+    text-align:center;
+    margin:auto;
+    margin-bottom:20px;
+    line-height:75px;
+    border-radius:5px;
+    box-shadow: 3px 3px lavender;
+}
+img{
+    height:200px;
+    display:inline-block;
+    margin-top:20px;
+    vertical-align:bottom;
+}
